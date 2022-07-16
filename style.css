@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&family=Sacramento&display=swap');
 
 :root{
-    --primary-color: #4653BB;
-    --dark-gray: #56565c;
+    --primary-color: #2735a1;
+    --dark-gray: #404042;
     --primary-background: #e6eff5;
 }
 
@@ -26,17 +26,22 @@ body{
 .links{
     padding: 0.5rem 1rem;
     text-decoration: none;
+    box-sizing: border-box;
 }
 .primary-link{
     background-color: var(--primary-color);
     color:azure;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
+    padding:0.5rem 1rem;
+    max-width:140px;
     
 }
 .secondary-link{
     border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     color: var(--primary-color);
+    padding:0.5rem 1rem;
+    max-width:140px;
 }
 .div-with-buttons{
     text-align: center;
@@ -162,3 +167,41 @@ hr{
 .social-links{
     padding: 0rem;
 }
+
+/*****Project Page*****/
+.project-header{
+    text-align: center;
+    padding: 4rem;
+    background-color: var(--primary-background);
+    color:var(--dark-gray);
+
+}
+
+.project-header span{
+    color: var(--primary-color);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.project-div ol{
+    padding:0;
+    margin:0;
+}
+.project-container{
+    text-align: center;
+    padding: 2rem;
+    margin:0 auto;
+}
+.project-container p{
+    width: 40%;
+    margin: 0rem auto 1rem;
+    padding:1rem;
+}
+.project-container h2{
+    margin:auto;
+    padding:1rem;
+}
+.project-container .links{
+    margin: auto 1rem;
+}
+
