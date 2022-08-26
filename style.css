@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&family=Sacramento&display=swap');
 
 :root{
-    --primary-color: #2735a1;
-    --dark-gray: #404042;
-    --primary-background: #e6eff5;
+    --primary-color: #05386B;
+    --dark-gray: #1f1e1e;
+    --primary-background: #5CDB95;
 }
 
 body{
@@ -29,7 +29,17 @@ body{
     box-sizing: border-box;
 }
 .primary-link{
+    border: 1px solid var(--primary-color);
     background-color: var(--primary-color);
+    color:azure;
+    border-radius: 1rem;
+    padding:0.5rem 1rem;
+    max-width:140px;
+    
+}
+.primary-link:hover{
+    border: 2px solid var(--primary-color);
+    background-color: #042546;
     color:azure;
     border-radius: 1rem;
     padding:0.5rem 1rem;
@@ -38,6 +48,13 @@ body{
 }
 .secondary-link{
     border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    color: var(--primary-color);
+    padding:0.5rem 1rem;
+    max-width:140px;
+}
+.secondary-link:hover{
+    border: 2px solid var(--primary-color);
     border-radius: 1rem;
     color: var(--primary-color);
     padding:0.5rem 1rem;
@@ -134,13 +151,15 @@ hr{
     text-align: center;
     
 }
-.blue-section{
+.green-section{
     background-color: var(--primary-background);
     color: var(--primary-color);
 }
 .white-section{
-    color: var(--dark-gray);
+    
+    color: var(--primary-color);
     background-color: rgb(245, 248, 248);
+    /* background-color: #d9f7e7; */
 }
 .section p{
     font-family: "Montserrat", serif;
@@ -163,6 +182,10 @@ hr{
 }
 .footer a{
     color:azure;
+}
+.footer a:hover{
+    color:var(--primary-background);
+
 }
 .social-links{
     padding: 0rem;
@@ -191,6 +214,7 @@ hr{
     text-align: center;
     padding: 2rem;
     margin:0 auto;
+    
 }
 .project-container p{
     width: 40%;
