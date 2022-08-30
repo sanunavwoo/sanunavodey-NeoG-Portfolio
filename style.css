@@ -105,7 +105,9 @@ hr{
     font-weight: bold;
     color:white;
 }
-
+.nav-right .links:hover{
+    color: var(--primary-background);
+}
 /*Header part*/
 .hero{
     padding: 2rem 1rem 0 1rem;
@@ -169,7 +171,14 @@ hr{
     font-size: 1.2rem;
     margin:0;
 }
-
+.second-container .fa-brands{
+    font-size: 3rem;
+    padding:1rem;
+    color: var(--primary-color);
+}
+.second-container .fa-brands:hover{
+    color: var(--primary-background);
+}
 /*Footer*/
 .footer{
     background-color: var(--primary-color);
@@ -182,6 +191,7 @@ hr{
 }
 .footer a{
     color:azure;
+    font-size: 3rem;
 }
 .footer a:hover{
     color:var(--primary-background);
