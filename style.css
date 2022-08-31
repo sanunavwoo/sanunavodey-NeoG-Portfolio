@@ -273,6 +273,11 @@ hr{
     .navbar ul{
         display:grid;
     }
+    .project-container p{
+        font-size: 1rem;
+        margin:auto;
+        width: 80vw;
+    }
 
 }
 
