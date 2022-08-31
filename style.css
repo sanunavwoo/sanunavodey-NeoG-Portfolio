@@ -5,7 +5,10 @@
     --dark-gray: #1f1e1e;
     --primary-background: #5CDB95;
 }
-
+html{
+    margin:0;
+    padding:0;
+}
 body{
     font-family: "Montserrat", sans-serif;
     padding:0;
@@ -120,7 +123,7 @@ hr{
     
 }
 .hero .hero-h1{
-    color:var(--dark-gray);
+    color:var(--primary-color);
     text-align: center;
     font-family: 'Sacramento', cursive;
     font-size: 3.5rem;
@@ -129,18 +132,21 @@ hr{
 .hero p{
     font-family: "Montserrat", serif;
     text-align: center;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color:#094581;
     font-size: 1.5rem;
     font-weight: 700;
-    margin: 0;
+    margin:auto;
+    width: 50vw;
 }
 .my-intro{
     font-family: "Montserrat", serif;
     color:var(--dark-gray);
     text-align: center;
-    padding: 2rem 12rem 2rem 12rem;
+    padding: 2rem 0rem 2rem 0rem;
     font-size: 1.2rem;
-    margin:0;
+    margin:auto;
+    width: 50vw;
     
 }
 
@@ -167,9 +173,10 @@ hr{
     font-family: "Montserrat", serif;
     color:var(--dark-gray);
     text-align: center;
-    padding: 1rem 12rem 1rem 12rem;
+    padding: 1rem 0rem 1rem 0rem;
     font-size: 1.2rem;
-    margin:0;
+    margin:auto;
+    width: 50vw;
 }
 .second-container .fa-brands{
     font-size: 3rem;
@@ -241,5 +248,31 @@ hr{
 }
 .project-container .links{
     margin: auto 1rem;
+}
+/* #stonks{
+    background-image: url('./images/stonks.png');
+}
+#palindrome{
+    background-image: url('./images/palindrome.png');   
+} */
+@media (max-width: 600px)
+{
+    .my-intro{
+        font-size: 1rem;
+        margin:auto;
+        width: 80vw;
+        padding: 2rem 0rem 2rem 0rem;
+        
+    }
+    .section p{
+        
+        font-size: 1rem;
+        margin:auto;
+        width: 80vw;
+    }
+    .navbar ul{
+        display:grid;
+    }
+
 }
 
