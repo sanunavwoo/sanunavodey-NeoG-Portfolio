@@ -272,13 +272,17 @@ hr{
     }
     .navbar ul{
         display:grid;
+        padding-left: 0rem;
     }
     .project-container p{
         font-size: 1rem;
         margin:auto;
         width: 80vw;
         padding-bottom: 2rem;
-}
+    }
+    .nav-right{
+        text-align:left;
+    }
     }
 
 
