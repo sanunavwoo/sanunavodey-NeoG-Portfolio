@@ -88,11 +88,14 @@ hr{
 .navbar{
     background-color: var(--primary-color);
     color: azure;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-style: groove;
     border-top-right-radius: 1rem;
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar .links{
